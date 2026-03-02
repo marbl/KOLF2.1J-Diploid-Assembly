@@ -12,6 +12,9 @@ The personalized diploid genome of the KOLF iPSC cell line. KOLF2.1J is the pare
 * Assembly graph from Verkko X.X in GFA format, no sequences included : [assembly.homopolymer.gfa]()
 * Genomic paths through both graphs used for consensus : [assembly.paths.tsv]()
 
+### Analysis set
+* KOLF2.1Jv1.1 personalized graph : [graph.gfa.gz]()
+  
 ### Methylation profile
 * Methylation call using ONT data in the BED file format by cell type, see [description]()
 * On KOLF2.1Jv1.1 primary
@@ -42,6 +45,8 @@ The personalized diploid genome of the KOLF iPSC cell line. KOLF2.1J is the pare
 ### Variant calls
 * heterozygosity site, see description
   * The heterozygosity site between primary and alternative haplotype : [hetsites.hetsites.fix.bed.gz]()
+  * hapdiff result : [hapdiff.vcf.gz]()
+  * 
     
 ### Liftover resources 
 * 1:1 Liftover T2T-CHM13v2.0 <-> KOLF2.1Jv1.1, see description
@@ -52,11 +57,12 @@ The personalized diploid genome of the KOLF iPSC cell line. KOLF2.1J is the pare
 
 ## Sequencing data
 * WGS
-  * HiFi
+  * HiFi 
   * ONT
   * Illumina
 * Transcriptome
-  * ISOSEQ
+  * ISOSEQ (PacBio) 
+  * Nanopore Direct RNA (ONT)
 * HiC
   * iPCS
   * iMicroglia
@@ -67,7 +73,6 @@ Please raise issues on this Github repository concerning this dataset.
 ## Data reuse and license
 
 ## Citation
-
 
 ## History
 ```
