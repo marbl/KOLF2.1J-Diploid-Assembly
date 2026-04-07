@@ -2,44 +2,96 @@
 The personalized diploid genome of the KOLF iPSC cell line. KOLF2.1J is the parental iPSC line and serves as a reference cell line for distributed iPSC derivatives. It has a relatively stable karyotype, maintains pluripotency, exhibits consistent growth characteristics, and harbors fewer problematic structural abnormalities compared to other iPSC lines. Therefore, generating a complete telomere-to-telomere (T2T) diploid assembly for this valuable resource is warranted, as it would enable broad community use and facilitate the characterization of its personalized variants and genomic features. 
 
 For more data analysis and assembly procedures, please see the original paper: 
-* Jerez, P. A., Rhie, A., Kim, J., Hebbar, P., Nag, S., Antipov, D., ... & Blauwendraat, C. (2026). The complete genome of the KOLF2. 1J reference iPSC line. bioRxiv, 2026-03.
+* Jerez, P. A., Rhie, A., Kim, J., Hebbar, P., Nag, S., Antipov, D., ... & Blauwendraat, C. (2026). [The complete genome of the KOLF2. 1J reference iPSC line](https://www.biorxiv.org/content/10.64898/2026.03.06.710144v2). bioRxiv, 2026-03.
+
+<p align="center">
+  <img width="543" height="515" alt="Screenshot 2026-04-07 at 5 47 52 PM" src="https://github.com/user-attachments/assets/7348f925-73e0-44be-90be-b0c2b89cd769" />
+</p>
+
 
 ## Latest assembly releases
 ### v1.1 (2026)
-* XXX.fasta.gz : T2T reconstruction of 45 chromosomes of KOLF iPSC line, except chrY and, include chrM, you can download this from [here](https://zenodo.org/records/18777354)
+* `KOLF2.1Jv1.1.noY.fa` : T2T reconstruction of 45 chromosomes of KOLF iPSC line, except chrY and, include chrM, you can download this from [here](https://zenodo.org/records/18777354).
 * This genome is viewable in the [UCSC browser](https://genome.ucsc.edu/cgi-bin/hgGateway?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2T_test/KOLF2.1Jv1.1/hub.txt). 
 
 ## Downloads
+### Liftover resources 
+* 1:1 Liftover T2T-CHM13v2.0 <-> KOLF2.1Jv1.1, see [here](https://zenodo.org/records/18777354).
+  * KOLF2.1Jv1.1 primary <-> T2T-CHM13v2.0 :
+    * `KOLF2.1Jv1.1.pri_vs_chm13v2.chain`
+    * `KOLF2.1Jv1.1.pri_vs_chm13v2.inverted.chain`
+  * KOLF2.1Jv1.1 alternative <-> T2T-CHM13v2.0 :
+    * `KOLF2.1Jv1.1.alt_vs_chm13v2.chain`
+    * `KOLF2.1Jv1.1.alt_vs_chm13v2.inverted.chain`
+* 1:1 Liftover KOLF2.1Jv1.1 primary <-> alternative, see [here](https://zenodo.org/records/18777354).
+  * KOLF2.1Jv1.1 primary <-> KOLF2.1Jv1.1 alternative :
+    * `KOLF2.1Jv1.1.pri_vs_alt.chain`
+    * `KOLF2.1Jv1.1.pri_vs_alt.inverted.chain`
+
+### WGS Alignments 
+* All alignments on the diploid assembly, excluding chrY, have been stored [here](https://zenodo.org/records/18777354).
+* Illumina
+  * `KOLF_IPS.noY.bam`
+* ONT
+  * `KOLF_ASTRO_IND12.sorted.noY.bam`
+  * `KOLF_ASTRO_NYSCF.sorted.noY.bam`
+  * `KOLF_IPS.mapped.sorted.noY.bam`
+  * `KOLF_IPSC_UL.noY.bam`
+  * `KOLF_MGL.mapped.sorted.noY.bam`
+  * `KOLF_NEURON.mapped.sorted.noY.bam`
+  * `KOLF_NGN2.mapped.sorted.noY.bam`
+* PacBio
+  * `KOLF_IPSC_PACBIO.noY.bam`
+
 ### Methylation profile
-* Methylation call using ONT data in the BED file format by cell type, you can download this from [here](https://zenodo.org/records/18777354)
+* Methylation calls from ONT data are provided in BED file format by cell type and can be downloaded [here](https://zenodo.org/records/18777354).
+  * `ASTRO_IND12.mrg.modkit.pri.bed.gz`
+  * `ASTRO_NYSCF.mrg.modkit.pri.bed.gz`
+  * `IPS.mrg.modkit.pri.bed.gz`
+  * `MGL.mrg.modkit.pri.bed.gz`
+  * `NEURON.mrg.modkit.pri.bed.gz`
+  * `NGN2.mrg.modkit.pri.bed.gz`
 
 ### HiC alignment
-* HiC aligned on the primary haplotype, you can download this from [here](https://zenodo.org/records/18777354)
+* HiC aligned on the primary haplotype, you can download this from [here](https://zenodo.org/records/18777339).
+  * `iMicroglia.kolf2.1Jv1.1pri.autosomes_X_M.bam`
+  * `iPSc.kolf2.1Jv1.1pri.autosomes_X_M.bam`
 
 ### Gene annotation
-* Gene annotation for each haplotype could be downloaded from [here](https://zenodo.org/records/18777354)
+* Hi-C data aligned to the primary haplotype are available for download [here](https://zenodo.org/records/18777354).
+  * `KOLF_MAT.gff3`
+  * `KOLF_PAT_noY.gff3`
+ 
+### Transcriptome sequencing data alignments
+All transcriptomic sequencing data are available for download [here].(https://zenodo.org/records/18777224).
+* ONT direct sequencing data
+  * `ASTRO_IND12.ONT.noY.bam`
+  * `ASTRO_NYSCF.ONT.noY.bam`
+  * `IPS.ONT.noY.bam`
+  * `MGL.ONT.noY.bam`
+  * `NEURON.ONT.noY.bam`
+  * `NGN2.ONT.noY.bam`
+  * `OLIGO_NYSCF.ONT.noY.bam`
+* PacBio ISOSEQ sequencing data
+  * `MGL_WT_1.noY.bam`
+  * `MGL_WT_2.noY.bam`
+  * `MGL_WT_3.noY.bam`
+* Illumina bulk RNA sequencing data
+  * `ipsc_illumina_hg38.noY.bam`
 
 ### Variant calls
-* heterozygosity site, see description
-  * The heterozygosity site between primary and alternative haplotype : [hetsites.hetsites.fix.bed.gz]()
-  * hapdiff result : [hapdiff.vcf.gz]()
-    
-### Liftover resources 
-* 1:1 Liftover T2T-CHM13v2.0 <-> KOLF2.1Jv1.1, see [here](https://zenodo.org/records/18777354)
-  * KOLF2.1Jv1.1 primary <-> T2T-CHM13v2.0
-  * KOLF2.1Jv1.1 alternative <-> T2T-CHM13v2.0
-* 1:1 Liftover KOLF2.1Jv1.1 primary <-> alternative, see [here](https://zenodo.org/records/18777354)
-  * KOLF2.1Jv1.1 primary <-> KOLF2.1Jv1.1 alternative
+SV calls and heterozygosity sites are also available for download [here](https://zenodo.org/records/18777354).
+* SV calling
+  * `hapdiff_phased.sv.noY.bed`
+* The heterozygosity site between primary and alternative haplotype
+  * `hetsites.hetsites.fix.bed.gz`
+  
 
-## Sequencing data
-* WGS
-  * HiFi and ONT sequencing data with methylation tag : [Link](https://zenodo.org/records/18777354)
-* Transcriptome
-  * ISOSEQ (PacBio) 
-  * Nanopore Direct RNA (ONT)
-  * Bulk short read RNA seq data (Illumina) : [Link](https://zenodo.org/records/18777224)
-* CAGE-seq
-  * CAGE sequencing data from the KOLF2.1J reference line for iPSC, cortical neuron, and microglia. This data was generated by DNAform. Average length from all three cell types is 75bp at around 3Gb per cell : [Link](https://zenodo.org/records/18777319)
+### CAGE sequencing alignments
+* CAGE sequencing data from the KOLF2.1J reference line for iPSC, cortical neuron, and microglia. This data was generated by DNAform. Average length from all three cell types is 75bp at around 3Gb per cell. Please visit [here](https://zenodo.org/records/18777319).
+  * `KOLF.IPS.noY.bam`
+  * `KOLF.Neuron.noY.bam`
+  * `KOLF.iMGL.noY.bam`
 
 ## Contact 
 Please raise issues on this Github repository concerning this dataset.
@@ -49,5 +101,6 @@ Jerez, P. A., Rhie, A., Kim, J., Hebbar, P., Nag, S., Antipov, D., ... & Blauwen
 
 ## History
 ```
-* v1.1 : 2025. V1.1 release.
+Feb 25, 2026 V1.1 assembly released.
+Apr 7, 2026  Additional alignment data listed.
 ```
