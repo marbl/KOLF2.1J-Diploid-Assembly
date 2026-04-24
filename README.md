@@ -58,12 +58,14 @@ For more data analysis and assembly procedures, please see the original paper:
   * `iPSc.kolf2.1Jv1.1pri.autosomes_X_M.bam`
 
 ### Gene annotation
-* Hi-C data aligned to the primary haplotype are available for download [here](https://zenodo.org/records/18777354).
+* Gene annotations for both haplotypes are available for download [here](https://zenodo.org/records/18777354).
   * `KOLF_MAT.gff3`
   * `KOLF_PAT_noY.gff3`
+* The list of genes including novel genes is available using Google Cloud Bucket
+  * `gs://asap-raw-team-indipd-ipsc-lr-wgs-kolf21j-wt/annotations/KOLF_genes_with_novel_isoforms.csv`
  
 ### Transcriptome sequencing data alignments
-All transcriptomic sequencing data are available for download [here].(https://zenodo.org/records/18777224).
+All transcriptomic sequencing data are available for download [here](https://zenodo.org/records/18777224).
 * ONT direct sequencing data
   * `ASTRO_IND12.ONT.noY.bam`
   * `ASTRO_NYSCF.ONT.noY.bam`
