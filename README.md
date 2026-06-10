@@ -12,7 +12,9 @@ For more data analysis and assembly procedures, please see the original paper:
 ## Latest assembly releases
 ### v1.1 (2026)
 * `KOLF2.1Jv1.1.noY.fa` : T2T reconstruction of 45 chromosomes of KOLF iPSC line, except chrY and, include chrM, you can download this from [here](https://zenodo.org/records/18777354).
-* This genome is viewable in the [UCSC browser](https://genome.ucsc.edu/cgi-bin/hgGateway?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2T_test/KOLF2.1Jv1.1/hub.txt). 
+* This genome is viewable in the [T2T UCSC browser](https://genome.ucsc.edu/cgi-bin/hgHubConnect?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2Tgenomes/hub.txt).
+    * [Primary haplotype + chrX + chrM](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hub_4837794_KOLF2.1Jv1.1.Hap1&hgsid=4085001877_jA8SpyLUGRXqTHcTrneinVTAyTHB&position=lastDbPos)
+    * [Alternative haplotype](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hub_4837794_KOLF2.1Jv1.1.Hap2&hgsid=4085001877_jA8SpyLUGRXqTHcTrneinVTAyTHB&position=lastDbPos)
 
 ## Downloads
 ### Liftover resources 
