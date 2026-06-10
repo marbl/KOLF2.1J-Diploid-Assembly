@@ -105,6 +105,7 @@ Jerez, P. A., Rhie, A., Kim, J., Hebbar, P., Nag, S., Antipov, D., ... & Blauwen
 
 ## History
 ```
-Feb 25, 2026 V1.1 assembly released.
-Apr 7, 2026  Additional alignment data listed.
+Feb  25,  2026  v1.1 assembly released.
+Apr  7,   2026  Additional alignment data listed.
+Jun  10,  2026  T2T UCSC browser for primary and alternative haplotypes are available.
 ```
