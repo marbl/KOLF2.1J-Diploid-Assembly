@@ -12,6 +12,12 @@ For more data analysis and assembly procedures, please see the original paper:
 ## Latest assembly releases
 ### v1.1 (2026)
 * `KOLF2.1Jv1.1.noY.fa` : T2T reconstruction of 45 chromosomes of KOLF iPSC line, except chrY and, include chrM, you can download this from [here](https://zenodo.org/records/18777354).
+
+|SUBID|BioProject|BioSample|Accession|Organism|
+|---|---|---|---|---|
+|SUB16212997|PRJNA1471455|SAMN60427383|JBZDRB000000000|Homo sapiens iPSC (primary)|
+|SUB16212997|PRJNA1471454|SAMN60427383|JBZDRC000000000|Homo sapiens iPSC (alternate)|
+
 * This genome is viewable in the [T2T UCSC browser](https://genome.ucsc.edu/cgi-bin/hgHubConnect?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2Tgenomes/hub.txt).
 ## Downloads
 ### Liftover resources 
