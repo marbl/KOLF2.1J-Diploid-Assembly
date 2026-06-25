@@ -2,7 +2,7 @@
 The personalized diploid genome of the KOLF iPSC cell line. KOLF2.1J is the parental iPSC line and serves as a reference cell line for distributed iPSC derivatives. It has a relatively stable karyotype, maintains pluripotency, exhibits consistent growth characteristics, and harbors fewer problematic structural abnormalities compared to other iPSC lines. Therefore, generating a complete telomere-to-telomere (T2T) diploid assembly for this valuable resource is warranted, as it would enable broad community use and facilitate the characterization of its personalized variants and genomic features. 
 
 For more data analysis and assembly procedures, please see the original paper: 
-* Jerez, P. A., Rhie, A., Kim, J., Hebbar, P., Nag, S., Antipov, D., ... & Blauwendraat, C. (2026). [The complete genome of the KOLF2. 1J reference iPSC line](https://www.biorxiv.org/content/10.64898/2026.03.06.710144v2). bioRxiv, 2026-03.
+* Alvarez Jerez, P., Rhie, A., Kim, J., Hebbar, P., Nag, S., Antipov, D., ... & Blauwendraat, C. (2026). [The complete genome of the KOLF2. 1J reference iPSC line](https://www.biorxiv.org/content/10.64898/2026.03.06.710144v2). bioRxiv, 2026-03.
 
 <p align="center">
   <img width="543" height="515" alt="Screenshot 2026-04-07 at 5 47 52 PM" src="https://github.com/user-attachments/assets/7348f925-73e0-44be-90be-b0c2b89cd769" />
@@ -104,7 +104,7 @@ SV calls and heterozygosity sites are also available for download [here](https:/
 Please raise issues on this Github repository concerning this dataset.
 
 ## Citation
-Jerez, P. A., Rhie, A., Kim, J., Hebbar, P., Nag, S., Antipov, D., ... & Blauwendraat, C. (2026). The complete genome of the KOLF2. 1J reference iPSC line. bioRxiv, 2026-03.
+Alvarez Jerez, P., Rhie, A., Kim, J., Hebbar, P., Nag, S., Antipov, D., ... & Blauwendraat, C. (2026). The complete genome of the KOLF2. 1J reference iPSC line. bioRxiv, 2026-03.
 
 ## History
 ```
